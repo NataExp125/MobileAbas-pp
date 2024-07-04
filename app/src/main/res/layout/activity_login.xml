@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/blogin">
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="248dp"
+        android:background="@drawable/edit_textlogin"
+        android:hint="Masukkan kode"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#5c5f72"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/edit_textlogin"
+        android:enabled="true"
+        android:text="Masuk" />
+</RelativeLayout>
